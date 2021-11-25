@@ -1,0 +1,140 @@
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.first {
+  @include flex-all-sb;
+  margin: 0 auto;
+  padding-top: 30px;
+  width: 100%;
+  max-width: 610px;
+  text-align: center;
+}
+
+.first li:first-of-type {
+  border-bottom: 2px solid $black;
+  padding: 10px;
+  width: 100%;
+  max-width: 160px;
+  font-weight: 700;
+}
+
+.first li:nth-child(2) {
+  width: 100%;
+  max-width: 150px;
+}
+
+.first li:nth-child(3) {
+  width: 100%;
+  max-width: 130px;
+}
+
+.first button {
+  border-style: none;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+hr {
+  margin: 0;
+}
+
+.second {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+  padding-top: 35px;
+}
+
+.second img {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 395px;
+}
+
+.second div {
+  display: flex;
+}
+
+.shop {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.shop a {
+  position: absolute;
+  border-radius: 2px;
+  padding: 16px 0 16px;
+  width: 100%;
+  max-width: 275px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $black;
+  background-color: #fff;
+}
+
+.link-one {
+  left: 16%;
+  top: 29%;
+}
+
+.link-two {
+  left: 16%;
+  top: 41%;
+}
+
+.desc {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px 20px;
+  width: 100%;
+  max-width: 335px;
+}
+
+.desc hr {
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+  color: $black;
+}
+
+span {
+  padding-left: 40px;
+  line-height: 1.4;
+  letter-spacing: 0.4px;
+  color: $black;
+  background-position: left center;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+}
+
+.desc--icon {
+  background-image: url("../../../img/favorites/icons/icon-one.png");
+}
+
+.desc--icon-two {
+  background-image: url("../../../img/favorites/icons/icon-two.png");
+}
+
+.desc--icon-three {
+  background-image: url("../../../img/favorites/icons/icon-three.png");
+}

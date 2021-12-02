@@ -1,22 +1,22 @@
-@mixin minidesk {
+@mixin macbook {
   @media (max-width: (1200px)) {
     @content;
   }
 }
 
 @mixin tablet {
-  @media (max-width: (1024px)) {
+  @media (max-width: (992px)) {
     @content;
   }
 }
 
-@mixin minitablet {
+@mixin mobile-l {
   @media (max-width: (768px)) {
     @content;
   }
 }
 
-@mixin mobile {
+@mixin mobile-m {
   @media (max-width: (576px)) {
     @content;
   }

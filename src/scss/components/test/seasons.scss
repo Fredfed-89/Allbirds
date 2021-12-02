@@ -1,0 +1,50 @@
+.seasons {
+  margin-bottom: 120px;
+
+  &__img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  &__text {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: $black;
+  }
+
+  &__btns {
+    @include flex-h-center;
+  }
+
+  &__btn {
+    border: 2px solid $black;
+    border-radius: 2px;
+    padding: 15px 45px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+    background-color: $black;
+    cursor: pointer;
+
+    &:not(:last-child) {
+      margin-right: 25px;
+    }
+
+    &:last-child {
+      padding-right: 32px;
+      padding-left: 32px;
+    }
+  }
+}
+
+.title {
+  margin-bottom: 55px;
+}

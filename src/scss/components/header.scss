@@ -1,0 +1,76 @@
+.header {
+  padding: 10px 0;
+  font-size: 12px;
+  line-height: 1.7;
+  letter-spacing: 1.7px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $black;
+  background-color: $white;
+
+  &__flex {
+    @include flex-all-sb;
+  }
+
+  &__nav {
+    @include flex-all-sb;
+
+    width: 100%;
+    max-width: 260px;
+
+    &__item {
+      &:not(:last-child) {
+        margin-right: 35px;
+      }
+    }
+  }
+
+  &__list {
+    @include flex-all-sb;
+
+    width: 100%;
+    max-width: 260px;
+  }
+
+  &__nav-user {
+    @include flex-all-sb;
+
+    width: 100%;
+    max-width: 360px;
+  }
+
+  &__user-list {
+    @include flex-all-sb;
+
+    width: 100%;
+    max-width: 360px;
+  }
+
+  &__nav-link {
+    align-items: center;
+
+    &:first-of-type {
+      margin-right: 40px;
+    }
+
+    &:last-child {
+      margin-right: 20px;
+    }
+  }
+
+  &__icons {
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    svg {
+      margin: 0;
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+
+.logo {
+  margin-right: -92px;
+}

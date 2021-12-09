@@ -1,0 +1,53 @@
+.hero {
+  margin-bottom: 120px;
+
+  &__bg {
+    margin: 0 auto;
+    width: 1440px;
+    height: 740px;
+    max-width: 100%;
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__inner {
+    position: relative;
+    top: 69%;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 10px;
+    width: 670px;
+    max-width: 100%;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 0.5px;
+    color: $white;
+  }
+
+  &__text {
+    margin-bottom: 45px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: $white;
+  }
+
+  &__btn {
+    border-color: transparent;
+    color: $black;
+    background-color: $white;
+
+    &:not(:last-child) {
+      margin-right: 25px;
+    }
+
+    &:last-child {
+      padding-right: 32px;
+      padding-left: 32px;
+    }
+  }
+}

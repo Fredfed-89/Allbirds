@@ -5,16 +5,19 @@
   letter-spacing: 1.7px;
   text-align: center;
   text-transform: uppercase;
-  color: $black;
-  background-color: $white;
+  color: #212a2f;
+  background-color: #fff;
 
   &__flex {
-    @include flex-all-sb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   &__nav {
-    @include flex-all-sb;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
     max-width: 260px;
 
@@ -26,22 +29,25 @@
   }
 
   &__list {
-    @include flex-all-sb;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
     max-width: 260px;
   }
 
   &__nav-user {
-    @include flex-all-sb;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
     max-width: 360px;
   }
 
   &__user-list {
-    @include flex-all-sb;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
     max-width: 360px;
   }

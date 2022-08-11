@@ -1,4 +1,6 @@
 // colors
 
-$black: #212a2f;
-$white: #fff;
+root {
+  --color-white: #fff;
+  --color-black: #212a2f;
+}
